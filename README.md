@@ -36,7 +36,8 @@ Installation
 ------------------------------------------------
 To have a look and manipulate the main dataset, please follow the following steps:
 
-1. First, create a copy of this project
+1. First, create a copy of the project
+
 _Via https_
 ```shell
 git clone https://github.com/pmatran/french_road_accidents.git
