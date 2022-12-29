@@ -34,21 +34,25 @@ The `plot_utils.py` script contains visualisation functions to help, minimize an
 
 Installation
 ------------------------------------------------
-In order to 
+To have a look and manipulate the main dataset, please follow the following steps:
 
+1. First, create a copy of this project
+_Via https_
 ```shell
-git clone https://github.com/pmatran/french_road_accidents.git (https)
+git clone https://github.com/pmatran/french_road_accidents.git
+```
+_Via ssh_
+```shell
 git clone git@github.com:pmatran/french_road_accidents.git (ssh)
-cd french_road_accidents
 ```
 
-Make sure to install all dependencies:
+2. Next, make sure to install all dependencies:
 
 ```shell
 pip install -r requirements.txt
 ```
 
-Next, install the main dataset through `Kaggle API` by running the following command:
+3. Finally, download (through `Kaggle API`) and preprocess the main dataset by running the following command:
 
 ```shell
 python data_collection.py
