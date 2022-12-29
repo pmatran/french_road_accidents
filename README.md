@@ -44,7 +44,7 @@ git clone https://github.com/pmatran/french_road_accidents.git
 ```
 _Via ssh_
 ```shell
-git clone git@github.com:pmatran/french_road_accidents.git (ssh)
+git clone git@github.com:pmatran/french_road_accidents.git
 ```
 
 2. **Next, make sure to install all dependencies:**
