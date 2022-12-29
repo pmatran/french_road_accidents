@@ -36,7 +36,7 @@ Installation
 ------------------------------------------------
 To have a look and manipulate the main dataset, please follow the following steps:
 
-1. First, create a copy of the project
+1. **First, create a copy of the project:**
 
 _Via https_
 ```shell
@@ -47,13 +47,13 @@ _Via ssh_
 git clone git@github.com:pmatran/french_road_accidents.git (ssh)
 ```
 
-2. Next, make sure to install all dependencies:
+2. **Next, make sure to install all dependencies:**
 
 ```shell
 pip install -r requirements.txt
 ```
 
-3. Finally, download (through `Kaggle API`) and preprocess the main dataset by running the following command:
+3. **Finally, download (through `Kaggle API`) and preprocess the main dataset by running the following command:**
 
 ```shell
 python data_collection.py
