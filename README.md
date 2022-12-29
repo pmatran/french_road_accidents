@@ -8,7 +8,7 @@
 <H1 align="center"> 
 	<b>French road accidents (2005-2016)</b>
 	<br>
-	<img height="220" width="220" src="assets/car-crash-icon.png">
+	<img height="300" width="300" src="assets/car-crash-icon.png">
 </H1>
 <br>
 
