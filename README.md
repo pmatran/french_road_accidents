@@ -53,10 +53,26 @@ git clone git@github.com:pmatran/french_road_accidents.git
 pip install -r requirements.txt
 ```
 
-3. **Finally, download (through `Kaggle API`) and preprocess the main dataset by running the following command:**
+3. **Finally, download and build the main dataset:**
+
+_Via manual download_
+
+Go the the [`Kaggle` page](https://www.kaggle.com/datasets/ahmedlahlou/accidents-in-france-from-2005-to-2016) of the dataset and dowload the `.zip` file.
+
+<img src="assets/download_kaggle.png">
+
+Put the `archive.zip` file in the `data/` folder and use the following command:
 
 ```shell
 python data_collection.py
+```
+
+_Via the Kaggle API_
+
+If your are familiar with `Kaggle` and have your own  `API token`, just run:
+
+```shell
+python data_collection.py -api
 ```
 
 
