@@ -20,7 +20,8 @@ parser = argparse.ArgumentParser(description=descr)
 parser.add_argument('-api', '--kaggle-API', action='store_true', default=argparse.SUPPRESS, help=h)
 
 # -- Collect arguments
-api = [v for _, v in parser.parse_args()._get_kwargs()][0]
+args = [v for _, v in parser.parse_args()._get_kwargs()]
+
 
 # -- Cleanup data folder
 print("==> Cleaning up `data/` folder ...")
@@ -29,7 +30,7 @@ for f in os.listdir('data'):
         os.remove(os.path.join('data', f))
 
 # -- Download `.csv` data tables
-if api:
+if len(args) > 0:
     #  Use Kaggle API to download and unzip data
     print("==> Downloading data from Kaggle API ...")
     os.system("kaggle datasets download -d ahmedlahlou/accidents-in-france-from-2005-to-2016 -p data --unzip")
