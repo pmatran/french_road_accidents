@@ -34,7 +34,7 @@ The `plot_utils.py` script contains visualisation functions to help, minimize an
 
 Installation
 ------------------------------------------------
-To have a look and manipulate the main dataset, please follow the following steps:
+To have a look and manipulate the main dataset, please consider the following steps:
 
 1. **First, create a copy of the project:**
 
