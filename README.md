@@ -16,7 +16,7 @@ Description & Content
 -----------------------------------------------
 This project is a simple Data Science analysis based on the `Kaggle` dataset : [Accidents in France from 2005 to 2016](https://www.kaggle.com/datasets/ahmedlahlou/accidents-in-france-from-2005-to-2016) provided by [Ahmed Lahlou Mimi](https://www.kaggle.com/ahmedlahlou).
 
-The datset contains several data tables related to recorded accidents in french territory:
+The dataset contains several data tables related to recorded accidents in french territory:
 - `caracteristics.csv`
 - `holidays.csv`
 - `places.csv`
@@ -24,7 +24,7 @@ The datset contains several data tables related to recorded accidents in french 
 - `vehicles.csv`
 
 All tables are related by a primary key named `Num_Acc` which corresponds to a unique accident id.
-The additional `data_collection.py` script perform a bunch of instructions to :
+The additional `data_collection.py` script performs a bunch of instructions to :
 - Collect required data tables using the `Kaggle API`
 - Merge all tables on their primary key
 - Write a easy-to-read file for analysis (`data/french_accidents.parquet`)
@@ -90,15 +90,21 @@ jupyter notebook PCA_Clustering.ipynb
 ```
 
 
+Report
+-----------------------------------------------
+A summary of insights extracted from the dataset is available [here](https://french-road-accidents-2005-2016.brizy.site/).
+
+
+
 Contributing
 ------------------------------------------------
 Bug reports, code contributions, or improvements to the documentation are welcome from the community. 
-Feel free to suggest improvements by working with your own fork version of `hdtsa`. Go to the project page and hit the **Fork** button.
+Feel free to suggest improvements by working with your own fork version of `french-road-accidents`. Go to the project page and hit the **Fork** button.
 You will want to clone your fork to your machine:
 
 ```shell
-git clone <url_french_road_accident> <french_road_accident-yourname>
-cd french_road_accident
+git clone <url_french_road_accidents> <french_road_accidents-yourname>
+cd french_road_accidents
 ```
 
 
